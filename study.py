@@ -149,13 +149,31 @@
 # )
 # print(delta)
 
-from datetime import datetime
+# from datetime import datetime
 
-# Поточна дата та час
-now = datetime.now()
+# # Поточна дата та час
+# now = datetime.now()
 
-# Конвертація у формат ISO 8601
-iso_format = now.isoformat()
-print(iso_format)
+# # Конвертація у формат ISO 8601
+# iso_format = now.isoformat()
+# print(iso_format)
 
-print('He said, "Hello"')
+# print('He said, "Hello"')
+
+cars = [
+    {"car": "Ford", "year": 2005},
+    {"car": "Mitsubishi", "year": 2000},
+    {"car": "BMW", "year": 2019},
+    {"car": "VW", "year": 2011},
+]
+
+
+def get_key(element):
+    return element["year"]
+
+
+print(cars)
+
+cars.sort(key=get_key)
+
+print(cars)
