@@ -160,20 +160,58 @@
 
 # print('He said, "Hello"')
 
-cars = [
-    {"car": "Ford", "year": 2005},
-    {"car": "Mitsubishi", "year": 2000},
-    {"car": "BMW", "year": 2019},
-    {"car": "VW", "year": 2011},
-]
+# cars = [
+#     {"car": "Ford", "year": 2005},
+#     {"car": "Mitsubishi", "year": 2000},
+#     {"car": "BMW", "year": 2019},
+#     {"car": "VW", "year": 2011},
+# ]
 
 
-def get_key(element):
-    return element["year"]
+# def get_key(element):
+#     return element["year"]
 
 
-print(cars)
+# print(cars)
 
-cars.sort(key=get_key)
+# cars.sort(key=get_key)
 
-print(cars)
+# print(cars)
+
+# import re
+
+# text = "Моя електронна адреса: example@example.com"
+# pattern = r"\w+@\w+\.\w+"
+# match = re.search(pattern, text)
+
+# if match:
+#     print("Електронна адреса:", match.group())
+#     print("Електронна адреса:", match.group())
+
+# import re
+
+# email = "username@domain.com"
+# pattern = r"(\w+)@(\w+\.\w+)"
+# match = re.search(pattern, email)
+
+# if match:
+#     user_name = match.group(1)
+#     domain_name = match.group(2)
+#     print("Ім'я користувача:", user_name)
+#     print("Домен:", domain_name)
+
+# import re
+
+# text = "Python - це %_° 34534 проста5345, але 345потужна мова програмування."
+# pattern = r"\w+"
+# matches = re.findall(pattern, text)
+
+# print(matches)
+
+# import re
+
+# text = "apple#banana!!mango@orange;kiwi!!"
+# pattern = r"[#@;!]+"
+# fruits = re.split(pattern, text)
+
+# print(fruits)
