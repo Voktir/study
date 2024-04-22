@@ -284,5 +284,10 @@
 # sanitized_numbers = [normalize_phone(num) for num in raw_numbers]
 # print("Нормалізовані номери телефонів для SMS-розсилки:", sanitized_numbers)
 
-def get_upcoming_birthdays(users):
-    pass
+from datetime import datetime
+
+seventh_day_2019 = datetime(year=2015, month=1, day=7, hour=14)
+seventh_day_2020 = datetime(year=2020, month=1, day=7, hour=14)
+
+difference = seventh_day_2020 - seventh_day_2019
+print(difference)  # 365 days, 0:00:00
