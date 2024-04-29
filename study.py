@@ -284,10 +284,70 @@
 # sanitized_numbers = [normalize_phone(num) for num in raw_numbers]
 # print("Нормалізовані номери телефонів для SMS-розсилки:", sanitized_numbers)
 
-from datetime import datetime
+# from datetime import datetime
 
-seventh_day_2019 = datetime(year=2015, month=1, day=7, hour=14)
-seventh_day_2020 = datetime(year=2020, month=1, day=7, hour=14)
+# seventh_day_2019 = datetime(year=2015, month=1, day=7, hour=14)
+# seventh_day_2020 = datetime(year=2020, month=1, day=7, hour=14)
 
-difference = seventh_day_2020 - seventh_day_2019
-print(difference)  # 365 days, 0:00:00
+# difference = seventh_day_2020 - seventh_day_2019
+# print(difference)  # 365 days, 0:00:00
+
+# fh = open("test.txt", "w")
+# fh.write("first line\nsecond line\nthird line")
+# fh.close()
+
+# fh = open("test.txt", "r")
+# lines = [el.strip() for el in fh.readlines()]
+# print(lines)
+
+# fh.close()
+
+# s = b'H ello!'
+# print(s[1])  # Виведе: 101 (це ASCII-код символу 'e')
+
+# # Перетворення списку чисел у байт-рядок
+# numbers = [0, 128, 255]
+# byte_numbers = bytes(numbers)
+# print(byte_numbers)  # Виведе байтове представлення чисел
+# print(ord('°'))
+# print(chr(248))
+
+# from pathlib import PurePath
+
+# p = PurePath("/usr/bin/simple.jpg")
+# print("Name:", p.name)  
+# print("Suffix:", p.suffix) 
+# print("Parent:", p.parent)
+
+# from pathlib import Path
+
+# # Перетворення відносного шляху в абсолютний
+# relative_path = Path("documents/example.txt")
+# absolute_path = relative_path.absolute()
+# print(absolute_path)
+
+# from pathlib import Path
+# import time
+
+# file_path = Path("t.txt")
+
+# # Час створення та модифікації
+# creation_time = file_path.stat().st_birthtime
+# modification_time = file_path.stat().st_mtime
+
+# print(f"Час створення: {time.ctime(creation_time)}")
+# print(f"Час модифікації: {time.ctime(modification_time)}")
+
+# from pathlib import Path
+
+# # Створення об'єкту Path для файлу
+# file_path = Path('t.txt')
+
+# # Перевірка, чи файл існує, перш ніж видаляти
+# if file_path.exists():
+#     file_path.unlink()
+#     print(f'Файл {file_path} було видалено')
+# else:
+#     print(f'Файл {file_path} не існує')
+
+print(list[1,3,1,2])
