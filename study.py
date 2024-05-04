@@ -350,4 +350,10 @@
 # else:
 #     print(f'Файл {file_path} не існує')
 
-print(list[1,3,1,2])
+# print(list[1,3,1,2])
+
+# numbers = [1, 2, 3, 4, 5]
+
+
+# for i in map(sqrt(x), numbers):
+#     print(i)
